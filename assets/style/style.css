@@ -1,6 +1,11 @@
  *{
     margin: 0px;
     padding: 0px;
+    font-family: math;
+ }
+ p{
+   letter-spacing: 1px;
+  
  }
  .nav{
     background-color: hsl(97.44deg 64.25% 40.59%);
