@@ -80,7 +80,7 @@ box-shadow: 12px 12px 12px rgb(196, 192, 192);
     font-weight: 400 !important;
  }
  .icon_box{
-     
+     transition: 0.3s;
     border-radius: 50%;
     height: 70px;
     width: 70px;
@@ -128,8 +128,20 @@ footer{
 
 
 
+.cards{
+   height: 350px;
+   border: 2px solid transparent;
+   transition: 0.4s;
+}
+.cards:hover{
+   border: 2px solid green;
 
+   transform: translatey(-10px);
+}
 
+.cards:hover .icon_box{
+   background-color: #5c0202;
+}
 
 /* responsive for mobile */
 @media screen and (max-width:576px) {
@@ -139,5 +151,8 @@ footer{
 #cont_padding{
    padding: 10px !important;
 
+}
+.cards{
+   height: 350px;
 }
 }
